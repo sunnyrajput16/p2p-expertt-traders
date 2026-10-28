@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply text-slate-200 antialiased;font-family:Inter,system-ui,sans-serif;background:radial-gradient(900px 400px at 80% -10%,#12306b55,transparent),#070b14}
+.card{@apply bg-panel border border-line rounded-2xl p-5}
+.inp{@apply w-full bg-ink border border-line rounded-lg px-3 py-2 outline-none focus:border-brand}
+.btn{@apply bg-brand hover:bg-blue-500 text-white font-semibold rounded-lg px-4 py-2 disabled:opacity-50 transition}
+.btn2{@apply border border-line hover:border-brand rounded-lg px-4 py-2 transition}
